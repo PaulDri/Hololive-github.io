@@ -1,0 +1,150 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body
+{
+    background-color: rgba(62, 199, 199, 0.696);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px;
+    border: 3px solid rgb(32, 65, 65);
+    background-color: rgba(146, 250, 250, 0.696);
+
+}
+
+.holo-logo
+{
+    width: 40px;
+    height: 50px;
+}
+
+.select-container
+{
+    display: block;
+    margin:  25px auto;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    box-shadow: 2px 2px 2px;
+    background-color: rgb(243, 243, 202);
+}
+
+.select-container:hover
+{
+    background-color: rgb(240, 240, 203);
+}
+main
+{
+    flex: 1;
+}
+.image-container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card
+{
+    background-color: white;
+    color: darkgrey;
+    border: 4px solid rgb(32, 152, 193);
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 2px;
+    transition: all 0.3s ease;
+}
+
+.card:hover
+{
+    transform: scale(1.05);
+}
+
+.img-filter
+{
+    width: 200px;
+    height: 200px;
+    transition: all 0.3s ease;
+}
+
+.img-filter:hover
+{
+    transform: scale(1.05);
+}
+
+.image-display
+{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(160, 160, 160, 0.74);
+}
+
+button
+{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#place-image
+{
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+
+footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: rgb(40, 152, 152);
+}
+
+
+
+
+
