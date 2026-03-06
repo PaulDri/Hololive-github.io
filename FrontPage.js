@@ -1,38 +1,38 @@
 const images = [
     {
-        suisei1: "/images/Suisei1.png",
-        suisei2: "/images/Suisei2.png",
-        suisei3: "/images/Suisei3.png",
-        suisei4: "/images/Suisei4.png",
-        suisei5: "/images/Suisei5.png"
+        suisei1: "images/Suisei1.png",
+        suisei2: "images/Suisei2.png",
+        suisei3: "images/Suisei3.png",
+        suisei4: "images/Suisei4.png",
+        suisei5: "images/Suisei5.png"
     },
     {
-        miko1: "/images/Miko1.png",
-        miko2: "/images/Miko2.png",
-        miko3: "/images/Miko3.png",
-        miko4: "/images/Miko4.png",
-        miko5: "/images/Miko5.png"
+        miko1: "images/Miko1.png",
+        miko2: "images/Miko2.png",
+        miko3: "images/Miko3.png",
+        miko4: "images/Miko4.png",
+        miko5: "images/Miko5.png"
     },
     {
-        sora1: "/images/Sora1.png",
-        sora2: "/images/Sora2.png",
-        sora3: "/images/Sora3.png",
-        sora4: "/images/Sora4.png",
-        sora5: "/images/Sora5.png"
+        sora1: "images/Sora1.png",
+        sora2: "images/Sora2.png",
+        sora3: "images/Sora3.png",
+        sora4: "images/Sora4.png",
+        sora5: "images/Sora5.png"
     },
     {
-        azki1: "/images/AZKi1.png",
-        azki2: "/images/AZKi2.png",
-        azki3: "/images/AZKi3.png",
-        azki4: "/images/AZKi4.png",
-        azki5: "/images/AZKi5.png"
+        azki1: "images/AZKi1.png",
+        azki2: "images/AZKi2.png",
+        azki3: "images/AZKi3.png",
+        azki4: "images/AZKi4.png",
+        azki5: "images/AZKi5.png"
     },
     {
-        roboco1: "/images/Roboco1.png",
-        roboco2: "/images/Roboco2.png",
-        roboco3: "/images/Roboco3.png",
-        roboco4: "/images/Roboco4.png",
-        roboco5: "/images/Roboco5.png"
+        roboco1: "images/Roboco1.png",
+        roboco2: "images/Roboco2.png",
+        roboco3: "images/Roboco3.png",
+        roboco4: "images/Roboco4.png",
+        roboco5: "images/Roboco5.png"
     }
 ]
 
