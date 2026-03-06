@@ -63,18 +63,25 @@ images.forEach(group => {
         img.addEventListener("click", () => {
             displayImage.style.display = "flex";
             placeClickedImage.src = img.src;
+            displayImage.classList.add("show");
         })
     })
 
     closeBtn.addEventListener("click", () => {
-        displayImage.style.display = "none";
+        displayImage.classList.remove("show");
+        setTimeout(() => {
+            displayImage.style.display = "none";
+        }, 300);
     })
 
     displayImage.addEventListener("click", (event) => {
 
         if(event.target === displayImage)
         {
-            displayImage.style.display = "none";
+            displayImage.classList.remove("show");
+            setTimeout(() => {
+                displayImage.style.display = "none";
+            }, 300);
         }
     })
 
@@ -110,18 +117,25 @@ function filterImage(imageFilter)
                 img.addEventListener("click", () => {
                     displayImage.style.display = "flex";
                     placeClickedImage.src = img.src;
+                    displayImage.classList.add("show");
                 })
             })
 
             closeBtn.addEventListener("click", () => {
-                displayImage.style.display = "none";
+                displayImage.classList.remove("show");
+                setTimeout(() => {
+                    displayImage.style.display = "none";
+                }, 300);
             })
 
             displayImage.addEventListener("click", (event) => {
 
                 if(event.target === displayImage)
                 {
+                    setTimeout(() => {
                     displayImage.style.display = "none";
+                    }, 300);
+                    displayImage.classList.remove("show");
                 }
             })
 
@@ -156,18 +170,26 @@ function filterImage(imageFilter)
                 img.addEventListener("click", () => {
                     displayImage.style.display = "flex";
                     placeClickedImage.src = img.src;
+                    displayImage.classList.add("show");
                 })
             })
 
             closeBtn.addEventListener("click", () => {
-                displayImage.style.display = "none";
+                setTimeout(() => {
+                    displayImage.style.display = "none";
+                }, 300);
+                
+                displayImage.classList.remove("show");
             })
 
             displayImage.addEventListener("click", (event) => {
 
                 if(event.target === displayImage)
                 {
+                    setTimeout(() => {
                     displayImage.style.display = "none";
+                    }, 300);
+                    displayImage.classList.remove("show");
                 }
             })
         })
